@@ -158,16 +158,18 @@ public class Login extends javax.swing.JFrame{
        String Uname= String.valueOf(jTextField1);
        String Pass=String.valueOf(jPasswordField1);
         //jTextField2.setText(Uname.toLowerCase());
-       String hai=System.getProperty(Uname, Pass);
-       System.out.println(hai);
+       String hai=System.getProperty(Uname);
+       System.out.println("Uname");
              
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
         // TODO add your handling code here:
+        
         String Uname= String.valueOf(jTextField1);
        String Pass=String.valueOf(jPasswordField1);
-       jTextField2.setText(Uname);
+       
+       //jTextField2.setText(Uname);
        
        //evt.isActionKey(ButtonDemo dem=new ButtonDemo());
        //dem.addNotify();
